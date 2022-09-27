@@ -21,4 +21,7 @@ public class MyController {
 
     @GetMapping("/pony")
     public String pony() {return "mlp"; }
+
+    @GetMapping("/page2")
+    public String page2(){return "page2";}
 }
