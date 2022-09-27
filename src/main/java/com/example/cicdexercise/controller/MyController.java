@@ -10,9 +10,4 @@ public class MyController {
     public String index(){
     return "index";
 }
-
-
-@GetMapping("/pony")
-public String pony() { return "mlp";}
-
 }
