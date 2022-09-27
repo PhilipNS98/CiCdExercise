@@ -18,4 +18,7 @@ public class MyController {
 
     @GetMapping("/4")
     public String html4(){return "4.html";}
+
+    @GetMapping("/pony")
+    public String pony() {return "mlp"; }
 }
