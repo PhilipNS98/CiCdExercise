@@ -15,4 +15,9 @@ public class MyController {
     public String page1() {
         return "page1";
     }
+
+    @GetMapping("/page2")
+    public String page2() {
+        return "page2";
+    }
 }
