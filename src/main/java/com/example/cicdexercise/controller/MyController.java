@@ -16,8 +16,6 @@ public class MyController {
         return "page1";
     }
 
-    @GetMapping("/page2")
-    public String page2() {
-        return "page2";
-    }
+    @GetMapping("/4")
+    public String html4(){return "4.html";}
 }
