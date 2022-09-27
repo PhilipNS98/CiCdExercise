@@ -10,4 +10,10 @@ public class MyController {
     public String index(){
     return "index";
 }
+
+    @GetMapping("/page2")
+    public String page2(){
+        return "page2";
+    }
 }
+
