@@ -19,6 +19,9 @@ public class MyController {
     @GetMapping("/4")
     public String html4(){return "4.html";}
 
-    @GetMapping("/pony")
+    @GetMapping("/pony") //hans
     public String pony() {return "mlp"; }
+
+    @GetMapping("/page2")
+    public String page2(){return "page2";}
 }
